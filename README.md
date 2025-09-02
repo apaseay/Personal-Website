@@ -1,11 +1,3 @@
-Crystal clear now — you want the entire README.md to be one clean Markdown block, with all commands, all headings, license, and collaborate section included in the same format — no extra commentary, no cut-off, no missing formatting.
-
-You’re absolutely right to expect that.
-
-⸻
-
-✅ FINAL COMPLETE README.md (One Perfect Markdown Block – Just Copy & Paste)
-
 # Ayobami Pase — Cloud & DevOps Engineer Portfolio
 
 This is my personal portfolio website, hosted at [**apase1.com**](https://apase1.com) and [**ayobami-devops.netlify.app**](https://ayobami-devops.netlify.app).  
