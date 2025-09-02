@@ -1,0 +1,163 @@
+{
+  "basics": {
+    "name": "Ayobami Kolade Pase",
+    "label": "I'm an IT Systems Engineer Specialist focused on Cloud Infrastructure, working as a Cloud Engineer / DevOps Engineer.",
+    "image": "images/profile.jpg",
+    "picture": "images/profile.jpg",
+    "x_pictureFallback": "images/profile.jpg",
+    "x_title": "Hi There! Thank you for visiting my Page",
+    "summary": "I'm Ayobami Pase, a Cloud & DevOps Engineer with hands-on experience building scalable cloud infrastructure using Terraform, Docker, and CI/CD pipelines. I specialize in GCP, AWS, and Kubernetes, and have a passion for automation, monitoring, and system reliability. My work includes deploying productionnready workloads, setting up GitHub Actions workflows, and optimizing cloud environments for performance and cost. I build with purpose, making cloud systems faster, safer, and easier to manage.",
+    "location": {
+      "country": "Ireland",
+      "countryCode": "IE",
+      "region": "Dublin"
+    },
+    "profiles": [
+      {
+        "network": "Docker Community",
+        "username": "apase1",
+        "url": "https://hub.docker.com/u/apase1",
+        "x_icon": "fab fa-2x fa-docker"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Ayobami Pase",
+        "url": "https://linkedin.com/in/ayobamipase/",
+        "x_icon": "fab fa-2x fa-linkedin"
+      },
+      {
+        "network": "GitHub",
+        "username": "apaseay",
+        "url": "https://github.com/apaseay",
+        "x_icon": "fab fa-2x fa-github"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Groupon",
+      "position": "Technical Support Engineer / Cloud Infrastructure Engineer – L3",
+      "startDate": "2023-06",
+      "endDate": "Present",
+      "summary": "Provide advanced support and operations across cloud infrastructure, DevOps, and database optimization environments. Designed secure and scalable infrastructure solutions based on customer and internal project requirements. Performed proactive cloud system administration across AWS, Azure, and GCP platforms. Optimized database operations to improve performance and reduce downtime. Troubleshot critical user-reported issues and built root-cause diagnostics tools for faster resolution. Wrote scripts and automation tools to improve system efficiency and software performance. Documented operational processes and delivered technical support to internal users and stakeholders."
+    },
+    {
+      "company": "Concentrix (Meta)",
+      "position": "Technical Support Specialist – Facebook & Instagram",
+      "startDate": "2022-01",
+      "endDate": "2023-06",
+      "summary": "Managed multiple queues of support cases, prioritizing based on severity and user impact. Collaborated with Product Managers and QA teams to address internal technical issues and identify opportunities for functionality improvements. Drove impactful changes across workflows, policies, and tools by working closely with internal support teams and external partners. Owned tasks through resolution or escalation. Investigated and triaged Facebook and Instagram product tooling issues, escalating to Tier 2 Technical Support Engineers for advanced troubleshooting and debugging."
+    },
+    {
+      "company": "CORETVNEWS",
+      "position": "Production Specialist & IT Support Technician",
+      "startDate": "2016-01",
+      "endDate": "2020-01",
+      "summary": "Investigated and responded to inquiries of urgent and sensitive nature in line with established guidelines and policies. Led Master Control Room (MCR) operations and supervised live broadcast teams. Ensured production quality and system security by reviewing workflows and tools including OBS, TriCaster, audio/video mixers, and Adobe Premiere. Investigated urgent issues, dispatched field crews, and transformed key metrics into insights that boosted staff productivity by 50%. Identified domestic and global news trends to strengthen editorial output."
+    },
+    {
+      "company": "Sports Pro",
+      "position": "Technical Customer Support Analyst",
+      "startDate": "2013-11",
+      "endDate": "2015-12",
+      "summary": "Audited support tickets for SLA compliance and documentation accuracy. Delivered weekly QA reports, coached team members, and led customer service projects focused on quality. Provided hands-on IT support, including PC upgrades, troubleshooting, password resets, and hardware dispatching."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Atlantic Technological University (ATU) Donegal",
+      "area": "Postgraduate Diploma in Computing in Cloud Technologies",
+      "studyType": "Postgraduate Diploma",
+      "startDate": "09-2025",
+      "endDate": "06-2026",
+      "x_country": "Ireland",
+      "x_city": "Dublin"
+    },
+    {
+      "institution": "National College of Ireland",
+      "area": "International Business",
+      "studyType": "MSc",
+      "startDate": "09-2020",
+      "endDate": "09-2021",
+      "x_country": "Ireland",
+      "x_city": "Dublin"
+    },
+    {
+      "institution": "Oduduwa University, Ipetumodu",
+      "area": "Communication & Information Technology",
+      "studyType": "BSc",
+      "startDate": "09-2009",
+      "endDate": "07-2013",
+      "x_country": "Nigeria",
+      "x_city": "Osun State"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Cloud Platforms",
+      "x_icon": "fa-solid fa-cloud",
+      "x_description": "Hands-on with AWS, GCP, and Microsoft Azure — building, deploying, and securing scalable infrastructure across all three."
+    },
+    {
+      "name": "Infrastructure as Code",
+      "x_icon": "fa-code",
+      "x_description": "Used Terraform and CloudFormation to provision consistent, repeatable cloud environments across dev, stage, and prod."
+    },
+    {
+      "name": "CI/CD Pipelines",
+      "x_icon": "fa-infinity",
+      "x_description": "Automated deployments using GitHub Actions, Azure Pipelines, and Jenkins — integrating tests, scans, and delivery."
+    },
+    {
+      "name": "Containers & Kubernetes",
+      "x_icon": "fa-brands fa-docker",
+      "x_description": "Built and deployed Dockerized apps to AKS, GKE, and EKS clusters; managed scaling, ingress, secrets, and rollouts."
+    },
+    {
+      "name": "Monitoring & Observability",
+      "x_icon": "fa-chart-line",
+      "x_description": "Implemented dashboards, metrics, and alerts using Datadog, Prometheus, Grafana, ELK, and Azure Monitor."
+    },
+    {
+      "name": "Automation & Scripting",
+      "x_icon": "fa-solid fa-terminal",
+      "x_description": "Built command-line tools and infrastructure scripts using Bash and Python to automate repetitive ops workflows."
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "AWS Certified Solutions Architect – Professional",
+      "issuer": "Amazon Web Services (AWS)",
+      "url": "https://www.credly.com/badges/11a14779-a419-4ac3-b9b9-d6aa38eaa402",
+      "x_badgeId": "aws-solutions-architect-professional",
+      "x_imageName": "cert-aws-professional.png"
+    },
+    {
+      "name": "AWS Certified Solutions Architect – Associate",
+      "issuer": "Amazon Web Services (AWS)",
+      "url": "https://www.credly.com/badges/19ac1535-4b37-4003-bc8d-a36e2808794a",
+      "x_badgeId": "aws-solutions-architect-associate",
+      "x_imageName": "cert-aws-associate.png"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Learning New Things",
+      "x_icon": "fa-lightbulb"
+    },
+    {
+      "name": "Playing & Watching Football",
+      "x_icon": "fa-futbol"
+    },
+    {
+      "name": "Sports Activities",
+      "x_icon": "fa-dumbbell"
+    }
+  ]
+}

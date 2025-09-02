@@ -1,0 +1,105 @@
+html {
+    scroll-behavior: smooth;
+  }
+  .is-180x180 {
+    height: 180px;
+    width: 180px;
+  }
+  .skill-list > li {
+    margin: 30px 0 0 0;
+  }
+  .has-bg-image {
+    background-image: url('../images/hero.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 88vh;
+  }
+  .bulma-image {
+    width: 200px;
+  }
+  .interests {
+    display: flex;
+    justify-content: center;
+  }
+  .summary-text {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 36em;
+  }
+  .article {
+    height: 100%;
+  }
+  .skill-card {
+    height: 100%;
+  }
+  .skill-title {
+    font-weight: bold;
+  }
+  .skill-icon {
+    padding: 20px;
+  }
+  
+  .has-bg-image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.9);
+    pointer-events: none;
+  }
+  
+  img.profile {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  .has-bg-image .container,
+  .has-bg-image .hero-body,
+  .has-bg-image .content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* 💡 Brighter glowing social icons */
+  .hero .icon i {
+    color: #ffffff;
+    filter: brightness(4) drop-shadow(0 0 6px #ffffff);
+    opacity: 1;
+    font-size: 2rem;
+  }
+  
+  .hero .icon i:hover {
+    color: #00ffff;
+    filter: brightness(5) drop-shadow(0 0 8px #00ffff);
+    transition: all 0.3s ease;
+  }
+  /* Keep certification badges small */
+.credly-badge,
+.credly-badge img {
+  max-width: 140px !important;
+  max-height: 140px !important;
+}
+.credly-badge { cursor: pointer; }
+
+/* Force bright, glowing social icons in the hero */
+.hero .social-icon {
+    color: #ffffff !important;
+    font-size: 2.2rem !important; /* override fa-2x if needed */
+    text-shadow:
+      0 0 10px rgba(255,255,255,0.9),
+      0 0 18px rgba(255,255,255,0.75);
+    filter: brightness(1.4); /* optional, safe for text/icons */
+  }
+  
+  .hero .social-icon:hover {
+    color: #00ffff !important;
+    text-shadow:
+      0 0 10px rgba(0,255,255,0.9),
+      0 0 20px rgba(0,255,255,0.7);
+    transition: all 0.25s ease;
+  }
