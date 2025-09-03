@@ -18,10 +18,10 @@ const Education = () => {
             key={index}
             iconStyle={{ background: "#6fba1c", color: "#fff" }}
             icon={<FaGraduationCap />}
+            date={`${edu.startDate} – ${edu.endDate}`}
           >
             <h3 className="vertical-timeline-element-title">{edu.institution}</h3>
             <h4 className="vertical-timeline-element-subtitle">{edu.studyType} in {edu.area}</h4>
-            <p>{edu.startDate} – {edu.endDate}</p>
             {(edu.x_city || edu.x_country) && (
               <p>
                 {edu.x_city}{edu.x_city && edu.x_country ? ", " : ""}{edu.x_country}
