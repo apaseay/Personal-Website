@@ -6,7 +6,7 @@
     "picture": "images/profile.jpg",
     "x_pictureFallback": "images/profile.jpg",
     "x_title": "Hi There! Thank you for visiting my Page",
-    "summary": "I'm Ayobami Pase, a Cloud & DevOps Engineer with hands-on experience building scalable cloud infrastructure using Terraform, Docker, and CI/CD pipelines. I specialize in GCP, AWS, and Kubernetes, and have a passion for automation, monitoring, and system reliability. My work includes deploying productionnready workloads, setting up GitHub Actions workflows, and optimizing cloud environments for performance and cost. I build with purpose, making cloud systems faster, safer, and easier to manage.",
+    "summary": "I'm Ayobami Pase, a Cloud & DevOps Engineer with hands-on experience building scalable cloud infrastructure using Terraform, Docker, and CI/CD pipelines. I specialize in GCP, AWS, and Kubernetes, and have a passion for automation, monitoring, and system reliability. My work includes deploying production ready workloads, setting up GitHub Actions workflows, and optimizing cloud environments for performance and cost. I build with purpose, making cloud systems faster, safer, and easier to manage.",
     "location": {
       "country": "Ireland",
       "countryCode": "IE",
