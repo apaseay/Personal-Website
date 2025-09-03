@@ -3,14 +3,16 @@ import AboutMe from "../sections/AboutMe";
 import Skills from "../sections/Skills";
 import Certifications from "../sections/Certifications";
 import Experience from "../sections/Experience";
+import Education from "../sections/Education";
 
 function Content() {
   return (
     <main>
       <AboutMe />
       <Skills />
-      <Certifications />
       <Experience />
+      <Education />
+      <Certifications />
     </main>
   );
 }
