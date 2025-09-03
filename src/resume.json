@@ -68,10 +68,11 @@
       "institution": "Atlantic Technological University (ATU) Donegal",
       "area": "Computing in Cloud Technologies",
       "studyType": "Postgraduate Diploma",
-      "startDate": "2025-09",
-      "endDate": "2026-06",
+      "startDate": "2025-09-08",
+      "endDate": "2026-06-01",
       "x_country": "Ireland",
-      "x_city": "Donegal"
+      "x_city": "Donegal",
+      "x_note": "Expected"
     },
     {
       "institution": "National College of Ireland",

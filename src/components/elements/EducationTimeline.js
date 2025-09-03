@@ -24,15 +24,6 @@ export default function EducationTimeline() {
 
   return (
     <div className="timeline is-centered">
-      <header className="timeline-header">
-        <span className="tag is-info">{new Date().getFullYear()}</span>
-      </header>
-
-      <div className="timeline-item">
-        <div className="timeline-marker is-info" />
-        <div className="timeline-content" />
-      </div>
-
       {years.map((year) => {
         const items = Resume.education.filter(
           (e) => new Date(e.startDate).getFullYear() === year
@@ -44,7 +35,7 @@ export default function EducationTimeline() {
             {items.map((item, idx) => {
               const range = `${formatDate(item.startDate)} – ${formatDate(
                 item.endDate || "Present"
-              )}`;
+              )}${item.x_note ? " (" + item.x_note + ")" : ""}`;
               const summary = `${item.studyType} in ${item.area}${
                 item.x_city || item.x_country
                   ? ` (${item.x_city || ""}${
