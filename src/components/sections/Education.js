@@ -1,5 +1,8 @@
 import React from "react";
 import Resume from "../../resume.json";
+import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
+import { FaGraduationCap } from "react-icons/fa";
+import "react-vertical-timeline-component/style.min.css";
 
 const Education = () => {
   if (!Resume.education || Resume.education.length === 0) return null;
@@ -9,22 +12,24 @@ const Education = () => {
       <div className="section-title">
         <h2>Education</h2>
       </div>
-      <div className="section-content">
+      <VerticalTimeline>
         {Resume.education.map((edu, index) => (
-          <div key={index} className="education-item">
-            <h3>{edu.studyType} in {edu.area}</h3>
-            <h4>{edu.institution}</h4>
-            <p className="education-dates">
-              {edu.startDate} – {edu.endDate}
-            </p>
+          <VerticalTimelineElement
+            key={index}
+            iconStyle={{ background: "#6fba1c", color: "#fff" }}
+            icon={<FaGraduationCap />}
+          >
+            <h3 className="vertical-timeline-element-title">{edu.institution}</h3>
+            <h4 className="vertical-timeline-element-subtitle">{edu.studyType} in {edu.area}</h4>
+            <p>{edu.startDate} – {edu.endDate}</p>
             {(edu.x_city || edu.x_country) && (
-              <p className="education-location">
+              <p>
                 {edu.x_city}{edu.x_city && edu.x_country ? ", " : ""}{edu.x_country}
               </p>
             )}
-          </div>
+          </VerticalTimelineElement>
         ))}
-      </div>
+      </VerticalTimeline>
     </section>
   );
 };
