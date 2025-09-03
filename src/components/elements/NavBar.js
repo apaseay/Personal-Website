@@ -40,8 +40,9 @@ class NavBar extends React.Component {
             <div className="navbar-end" onClick={this.handleMenuClick}>
               <MenuItem text="About Me" href="#aboutMe" />
               <MenuItem text="Skills" href="#skills" />
-              <MenuItem text="Certifications" href="#certifications" />
               <MenuItem text="Experience" href="#experience" />
+              <MenuItem text="Education" href="#education" />
+              <MenuItem text="Certifications" href="#certifications" />
               {/* <MenuItem text="Articles" href="#articles" /> */}
             </div>
           </div>
