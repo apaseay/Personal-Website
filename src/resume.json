@@ -66,19 +66,19 @@
   "education": [
     {
       "institution": "Atlantic Technological University (ATU) Donegal",
-      "area": "Postgraduate Diploma in Computing in Cloud Technologies",
+      "area": "Computing in Cloud Technologies",
       "studyType": "Postgraduate Diploma",
-      "startDate": "09-2025",
-      "endDate": "06-2026",
+      "startDate": "2025-09",
+      "endDate": "2026-06",
       "x_country": "Ireland",
-      "x_city": "Dublin"
+      "x_city": "Donegal"
     },
     {
       "institution": "National College of Ireland",
       "area": "International Business",
       "studyType": "MSc",
-      "startDate": "09-2020",
-      "endDate": "09-2021",
+      "startDate": "2020-01",
+      "endDate": "2021-10",
       "x_country": "Ireland",
       "x_city": "Dublin"
     },
@@ -86,8 +86,8 @@
       "institution": "Oduduwa University, Ipetumodu",
       "area": "Communication & Information Technology",
       "studyType": "BSc",
-      "startDate": "09-2009",
-      "endDate": "07-2013",
+      "startDate": "2009-09",
+      "endDate": "2013-07",
       "x_country": "Nigeria",
       "x_city": "Osun State"
     }
