@@ -9,6 +9,8 @@ const Education = () => {
       <div className="section-title">
         <h2>Education</h2>
       </div>
+      <h2>Education Section Test</h2>
+      <pre>{JSON.stringify(Resume.education, null, 2)}</pre>
       <div className="section-content">
         {Resume.education.map((edu, index) => (
           <div key={index} className="education-item">
