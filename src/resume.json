@@ -145,7 +145,13 @@
       "url": "https://www.credly.com/badges/19ac1535-4b37-4003-bc8d-a36e2808794a",
       "x_badgeId": "aws-solutions-architect-associate",
       "x_imageName": "cert-aws-associate.png"
-    }
+    },
+    {
+      "name": "Preparing for Your Associate Cloud Engineering",
+      "issuer": "Google Cloud Skills Boost",
+      "url": "https://www.cloudskillsboost.google/public_profiles/df1e20e3-ed26-46dc-86d1-948a91f81ccb/badges/18197469",
+      "x_imageName": "preparing-cloud-engineer.png"
+    }  
   ],
   "interests": [
     {
