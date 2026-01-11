@@ -31,17 +31,51 @@ html {
   .article {
     height: 100%;
   }
-  .skill-card {
-    height: 100%;
-  }
+/* ===================== */
+/* SKILLS – SMART LAYOUT */
+/* ===================== */
+
+.skill-card {
+  height: 100%;
+}
+
+.skill-card .card-content {
+  padding: 1rem;
+}
+
+.skill-card .media {
+  align-items: flex-start;
+}
+
+.skill-card .media-left {
+  margin-right: 0.75rem;
+}
+
+.skill-icon {
+  padding: 10px;
+  line-height: 1;
+}
+
 .skill-title {
+  font-weight: 700;
+  font-size: 0.9rem;
+  line-height: 1.25;
+  margin-bottom: 0.25rem;
+}
+
+.skill-card p {
+  font-size: 0.75rem;
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+  .skill-title {
   font-weight: 700;
   font-size: 0.95rem;
   line-height: 1.25;
 }
-  .skill-icon {
-    padding: 20px;
-  }
   
   .has-bg-image::before {
     content: "";
@@ -105,29 +139,3 @@ html {
       0 0 20px rgba(0,255,255,0.7);
     transition: all 0.25s ease;
   }
-  /* Compact Skills Cards */
-.skill-card .card-content {
-  padding: 0.75rem;
-}
-
-.skill-card .media {
-  align-items: flex-start;
-}
-
-.skill-card .media-left {
-  margin-right: 0.75rem;
-}
-
-.skill-card .skill-icon {
-  line-height: 1;
-}
-
-.skill-card .skill-title {
-  margin-bottom: 0.25rem;
-  font-size: 0.9rem;
-}
-
-.skill-card p {
-  line-height: 1.3;
-  font-size: 0.75rem;
-}
