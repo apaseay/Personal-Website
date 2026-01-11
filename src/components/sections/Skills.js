@@ -10,7 +10,7 @@ function Skills() {
         <h1 className="title">Skills</h1>
         <div className="columns is-multiline">
           {Resume.skills.map((skill, indx) => (
-            <div key={indx} className="column is-3">
+            <div key={indx} className="column is-2">
               <Skill
                 text={skill.name}
                 icon={skill.x_icon}
