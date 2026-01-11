@@ -106,12 +106,12 @@
     },
     {
       "name": "Infrastructure as Code",
-      "x_icon": "fa-code",
+      "x_icon": "fa-solid fa-code",
       "x_description": "Used Terraform and CloudFormation to provision consistent, repeatable cloud environments across dev, stage, and prod."
     },
     {
       "name": "CI/CD Pipelines",
-      "x_icon": "fa-infinity",
+      "x_icon": "fa-solid fa-infinity",
       "x_description": "Automated deployments using GitHub Actions, Azure Pipelines, and Jenkins — integrating tests, scans, and delivery."
     },
     {
@@ -121,7 +121,7 @@
     },
     {
       "name": "Monitoring & Observability",
-      "x_icon": "fa-chart-line",
+      "x_icon": "fa-solid fa-chart-line",
       "x_description": "Implemented dashboards, metrics, and alerts using Datadog, Prometheus, Grafana, ELK, and Azure Monitor."
     },
     {
@@ -131,7 +131,7 @@
     },
     {
       "name": "Ansible",
-      "x_icon": "fa-brands fa-ansible",
+      "x_icon": "fa-solid fa-diagram-project",
       "x_description": "Designed and implemented a multi-node Ansible automation environment consisting of an Ansible Manager (control node) and multiple Ansible Servers (managed nodes). Configured static IP addressing and hostname resolution, established secure SSH connectivity, and developed playbooks to automate system updates and deploy Apache and MariaDB services."
     }
 
