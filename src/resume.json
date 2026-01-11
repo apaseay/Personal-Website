@@ -95,6 +95,11 @@
   ],
   "skills": [
     {
+      "name": "Linux Operating Systems",
+      "x_icon": "fa-brands fa-linux",
+      "x_description": "Hands-on experience administering Linux virtual machines, including user and permission management, package installation, service control, static IP configuration, SSH access, and system updates in multi-node environments."
+    },
+    {
       "name": "Cloud Platforms",
       "x_icon": "fa-solid fa-cloud",
       "x_description": "Hands-on with AWS, GCP, and Microsoft Azure — building, deploying, and securing scalable infrastructure across all three."
