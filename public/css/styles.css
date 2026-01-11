@@ -1,6 +1,10 @@
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #4a4a4a;
+}
   .is-180x180 {
     height: 180px;
     width: 180px;
@@ -57,25 +61,19 @@ html {
 }
 
 .skill-title {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 0.9rem;
   line-height: 1.25;
-  margin-bottom: 0.25rem;
+  color: #363636;
 }
 
 .skill-card p {
   font-size: 0.75rem;
-  line-height: 1.35;
-
-  overflow: visible;    
+  line-height: 1.4;
+  color: #4a4a4a;
 }
 .skill-card .card-content {
   min-height: 170px;
-}
-  .skill-title {
-  font-weight: 700;
-  font-size: 0.95rem;
-  line-height: 1.25;
 }
   
   .has-bg-image::before {
