@@ -34,9 +34,11 @@ html {
   .skill-card {
     height: 100%;
   }
-  .skill-title {
-    font-weight: bold;
-  }
+.skill-title {
+  font-weight: 700;
+  font-size: 0.95rem;
+  line-height: 1.25;
+}
   .skill-icon {
     padding: 20px;
   }
