@@ -123,7 +123,13 @@
       "name": "Automation & Scripting",
       "x_icon": "fa-solid fa-terminal",
       "x_description": "Built command-line tools and infrastructure scripts using Bash and Python to automate repetitive ops workflows."
+    },
+    {
+      "name": "Ansible",
+      "x_icon": "fa-brands fa-ansible",
+      "x_description": "Designed and implemented a multi-node Ansible automation environment consisting of an Ansible Manager (control node) and multiple Ansible Servers (managed nodes). Configured static IP addressing and hostname resolution, established secure SSH connectivity, and developed playbooks to automate system updates and deploy Apache and MariaDB services."
     }
+
   ],
   "languages": [
     {
