@@ -45,7 +45,7 @@ html {
 
 .skill-card .card-content {
   padding: 1rem;
-  min-height: 170px;
+  min-height: 14px;
   display: flex;
   flex-direction: column;
 }

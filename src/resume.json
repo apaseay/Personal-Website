@@ -97,22 +97,27 @@
     {
       "name": "Linux Operating Systems",
       "x_icon": "fa-brands fa-linux",
-      "x_description": "Hands-on experience administering Linux virtual machines, including user and permission management, package installation, service control, static IP configuration, SSH access, and system updates in multi-node environments."
+      "x_description": "Hands-on Linux administration, including user and permission management, service configuration, SSH access, and system maintenance."
     },
     {
       "name": "Cloud Platforms",
       "x_icon": "fa-solid fa-cloud",
-      "x_description": "Hands-on with AWS, GCP, and Microsoft Azure — building, deploying, and securing scalable infrastructure across all three."
+      "x_description": "Hands-on with AWS, GCP, and Microsoft Azure. Building, deploying, and securing scalable infrastructure across all three."
     },
     {
       "name": "Infrastructure as Code",
       "x_icon": "fa-solid fa-code",
-      "x_description": "Used Terraform and CloudFormation to provision consistent, repeatable cloud environments across dev, stage, and prod."
+      "x_description": "Used Terraform and Python to provision consistent, repeatable cloud environments across dev, stage, and prod."
+    },
+    {
+      "name": "SSH & Secure Access",
+      "x_icon": "fa-solid fa-lock",
+      "x_description": "Experience using SSH for secure remote access, key-based authentication, and managing connections to servers."
     },
     {
       "name": "CI/CD Pipelines",
       "x_icon": "fa-solid fa-infinity",
-      "x_description": "Automated deployments using GitHub Actions, Azure Pipelines, and Jenkins — integrating tests, scans, and delivery."
+      "x_description": "Automated deployments using GitHub Actions, integrating builds, tests, security checks, and delivery workflows."
     },
     {
       "name": "Containers & Kubernetes",
@@ -132,8 +137,24 @@
     {
       "name": "Ansible",
       "x_icon": "fa-solid fa-diagram-project",
-      "x_description": "Designed and implemented a multi-node Ansible automation environment consisting of an Ansible Manager (control node) and multiple Ansible Servers (managed nodes). Configured static IP addressing and hostname resolution, established secure SSH connectivity, and developed playbooks to automate system updates and deploy Apache and MariaDB services."
+      "x_description": "Built and managed Ansible automation for multi-node environments, using playbooks to automate system updates and deploy common services."
+    },
+    {
+      "name": "Networking",
+      "x_icon": "fa-solid fa-network-wired",
+      "x_description": "Hands on networking fundamentals including IP addressing, routing, switching, and network simulation using GNS3."
+    },
+    {
+      "name": "Virtualisation",
+      "x_icon": "fa-solid fa-server",
+      "x_description": "Hands-on virtualisation using VMware and VirtualBox to run virtual machines for labs, testing, and infrastructure simulations."
+    },
+    {
+      "name": "Data Centre Operations",
+      "x_icon": "fa-solid fa-database",
+      "x_description": "Data centre operations experience covering system availability, monitoring, and incident response."
     }
+
 
   ],
   "languages": [
