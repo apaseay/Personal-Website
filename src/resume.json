@@ -127,7 +127,7 @@
     {
       "name": "Monitoring & Observability",
       "x_icon": "fa-solid fa-chart-line",
-      "x_description": "Implemented dashboards, metrics, and alerts using Datadog, Prometheus, Grafana, ELK, and Azure Monitor."
+      "x_description": "Implemented dashboards, metrics, and alerts using Datadog and Azure Monitor, with basic system and service monitoring on Unix-like servers via Webmin."
     },
     {
       "name": "Automation & Scripting",
