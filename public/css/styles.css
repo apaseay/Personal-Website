@@ -45,6 +45,9 @@ html {
 
 .skill-card .card-content {
   padding: 1rem;
+  min-height: 170px;
+  display: flex;
+  flex-direction: column;
 }
 
 .skill-card .media {
@@ -71,9 +74,6 @@ html {
   font-size: 0.75rem;
   line-height: 1.4;
   color: #4a4a4a;
-}
-.skill-card .card-content {
-  min-height: 170px;
 }
   
   .has-bg-image::before {
