@@ -100,6 +100,21 @@
       "x_description": "Hands-on Linux administration, including user and permission management, service configuration, SSH access, and system maintenance."
     },
     {
+      "name": "macOS Administration",
+      "x_icon": "fa-brands fa-apple",
+      "x_description": "Enterprise macOS administration, covering device provisioning, user account management, security configuration, compliance controls, troubleshooting, and lifecycle management."
+    },
+    {
+      "name": "Containers & Kubernetes",
+      "x_icon": "fa-brands fa-docker",
+      "x_description": "Built and deployed Dockerized apps to AKS, GKE, and EKS clusters; managed scaling, ingress, secrets, and rollouts."
+    },
+    {
+      "name": "CI/CD Pipelines",
+      "x_icon": "fa-solid fa-infinity",
+      "x_description": "Automated deployments using GitHub Actions, integrating builds, tests, security checks, and delivery workflows."
+    },
+    {
       "name": "Cloud Platforms",
       "x_icon": "fa-solid fa-cloud",
       "x_description": "Hands-on with AWS, GCP, and Microsoft Azure. Building, deploying, and securing scalable infrastructure across all three."
@@ -108,31 +123,6 @@
       "name": "Infrastructure as Code",
       "x_icon": "fa-solid fa-code",
       "x_description": "Used Terraform and Python to provision consistent, repeatable cloud environments across dev, stage, and prod."
-    },
-    {
-      "name": "SSH & Secure Access",
-      "x_icon": "fa-solid fa-lock",
-      "x_description": "Experience using SSH for secure remote access, key-based authentication, and managing connections to servers."
-    },
-    {
-      "name": "CI/CD Pipelines",
-      "x_icon": "fa-solid fa-infinity",
-      "x_description": "Automated deployments using GitHub Actions, integrating builds, tests, security checks, and delivery workflows."
-    },
-    {
-      "name": "Containers & Kubernetes",
-      "x_icon": "fa-brands fa-docker",
-      "x_description": "Built and deployed Dockerized apps to AKS, GKE, and EKS clusters; managed scaling, ingress, secrets, and rollouts."
-    },
-    {
-      "name": "Monitoring & Observability",
-      "x_icon": "fa-solid fa-chart-line",
-      "x_description": "Implemented dashboards, metrics, and alerts using Datadog and Azure Monitor, with basic system and service monitoring on Unix-like servers via Webmin."
-    },
-    {
-      "name": "Automation & Scripting",
-      "x_icon": "fa-solid fa-terminal",
-      "x_description": "Built command-line tools and infrastructure scripts using Bash and Python to automate repetitive ops workflows."
     },
     {
       "name": "Ansible",
@@ -145,6 +135,11 @@
       "x_description": "Hands on networking fundamentals including IP addressing, routing, switching, and network simulation using GNS3."
     },
     {
+      "name": "Hybrid Cloud",
+      "x_icon": "fa-solid fa-cloud",
+      "x_description": "Connecting on-premises enterprise infrastructure with public cloud, spanning virtualisation, data centre design, storage, networking, and identity management."
+    },
+    {
       "name": "Virtualisation",
       "x_icon": "fa-solid fa-server",
       "x_description": "Hands-on virtualisation using VMware and VirtualBox to run virtual machines for labs, testing, and infrastructure simulations."
@@ -153,6 +148,21 @@
       "name": "Data Centre Operations",
       "x_icon": "fa-solid fa-database",
       "x_description": "Data centre operations experience covering system availability, monitoring, and incident response."
+    },
+    {
+      "name": "Automation & Scripting",
+      "x_icon": "fa-solid fa-terminal",
+      "x_description": "Built command-line tools and infrastructure scripts using Bash and Python to automate repetitive ops workflows."
+    },
+    {
+      "name": "SSH & Secure Access",
+      "x_icon": "fa-solid fa-lock",
+      "x_description": "Experience using SSH for secure remote access, key-based authentication, and managing connections to servers."
+    },
+    {
+      "name": "Monitoring & Observability",
+      "x_icon": "fa-solid fa-chart-line",
+      "x_description": "Implemented dashboards, metrics, and alerts using Datadog and Azure Monitor, with basic system and service monitoring on Unix-like servers via Webmin."
     }
 
 
