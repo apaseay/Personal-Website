@@ -138,3 +138,61 @@ html {
       0 0 20px rgba(0,255,255,0.7);
     transition: all 0.25s ease;
   }
+
+/* =====================================================
+   BULMA TIMELINE – LAYOUT
+===================================================== */
+
+.timeline {
+  margin-top: 2rem;
+}
+
+/* SAME WIDTH BOTH SIDES */
+.timeline .timeline-content {
+  max-width: 28em !important;
+  text-align: left !important;
+}
+
+/* LEFT SIDE */
+.timeline-item:nth-child(odd) .timeline-content {
+  margin-left: auto !important;
+  margin-right: 3rem !important;
+}
+
+/* RIGHT SIDE */
+.timeline-item:nth-child(even) .timeline-content {
+  margin-left: 3rem !important;
+  margin-right: auto !important;
+}
+
+/* Date text */
+.timeline-content .heading {
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.25rem;
+}
+
+/* Company name */
+.timeline-content .title {
+  font-size: 1.2rem;
+  margin-bottom: 0.6rem;
+}
+
+/* Paragraph text */
+.timeline-content p {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  margin: 0.35rem 0;
+}
+
+/* Bullet lists */
+.timeline-content ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.timeline-content li {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
