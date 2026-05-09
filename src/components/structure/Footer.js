@@ -16,14 +16,6 @@ function Footer() {
           </a>
         </p>
 
-        <p style={{ marginTop: "10px" }}>
-          <img
-            src={`${process.env.PUBLIC_URL}/images/cloud-summary-banner.png`}
-            alt="Cloud Summary Banner"
-            style={{ maxWidth: "400px", height: "auto" }}
-          />
-        </p>
-
         {/* Contact section */}
         <section
           id="contact"
