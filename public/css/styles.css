@@ -154,15 +154,17 @@ html {
 }
 
 /* LEFT SIDE */
-.timeline-item:nth-child(odd) .timeline-content {
+.timeline-item.is-left .timeline-content {
   margin-left: auto !important;
   margin-right: 3rem !important;
+  text-align: left !important;
 }
 
 /* RIGHT SIDE */
-.timeline-item:nth-child(even) .timeline-content {
+.timeline-item.is-right .timeline-content {
   margin-left: 3rem !important;
   margin-right: auto !important;
+  text-align: left !important;
 }
 
 /* Date text */
