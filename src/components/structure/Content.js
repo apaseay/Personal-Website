@@ -4,6 +4,7 @@ import Skills from "../sections/Skills";
 import Certifications from "../sections/Certifications";
 import Experience from "../sections/Experience";
 import Education from "../sections/Education";
+import Projects from "../sections/Projects";
 
 function Content() {
   return (
@@ -13,6 +14,7 @@ function Content() {
       <Experience />
       <Education />
       <Certifications />
+      <Projects />
     </main>
   );
 }

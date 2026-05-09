@@ -206,5 +206,43 @@
       "name": "Sports Activities",
       "x_icon": "fa-dumbbell"
     }
+  ],
+  "projects": [
+    {
+      "name": "Ansible Lab – Linux Server Automation",
+      "description": "Automated a small-scale Linux server environment using Ansible and VMware Workstation. Deployed and linked-cloned Ubuntu servers within a NAT network, configured static IPs via Netplan, disabled cloud-init DHCP overrides, and ran playbooks to install and configure Apache and MariaDB across managed nodes.",
+      "highlights": ["Ansible", "Ubuntu", "VMware", "Netplan", "Apache", "MariaDB"],
+      "x_icon": "fa-solid fa-diagram-project",
+      "url": "https://github.com/apaseay/ansible"
+    },
+    {
+      "name": "OpenClaw Agent",
+      "description": "AI-powered Discord bot built with Node.js, Express, OpenAI GPT-4, and Discord.js. Exposes a REST API that forwards user prompts to OpenAI and sends AI-generated replies back to Discord. Runs inside a Docker container on Ubuntu via VMware Fusion on Mac M1.",
+      "highlights": ["Node.js", "Express", "OpenAI GPT-4", "Discord", "Docker", "Ubuntu", "VMware Fusion"],
+      "x_icons": ["fa-solid fa-robot", "fa-brands fa-discord"],
+      "url": "https://github.com/apaseay/openclaw-agent"
+    },
+    {
+      "name": "Okta MCP Server",
+      "description": "An AI-powered Okta IT automation server built with Claude Code and the Model Context Protocol (MCP). Enables natural language IT operations, provisioning users, auditing MFA compliance, managing groups, and more. All via conversation with Claude.",
+      "x_description_html": "An AI-powered Okta IT automation server built with <a href=\"https://claude.ai/code\" target=\"_blank\" rel=\"noopener noreferrer\">Claude Code</a> and the <a href=\"https://modelcontextprotocol.io/\" target=\"_blank\" rel=\"noopener noreferrer\">Model Context Protocol (MCP)</a>. Enables natural language IT operations, provisioning users, auditing MFA compliance, managing groups, and more. All via conversation with Claude.",
+      "highlights": ["Claude Code", "MCP", "Okta API", "Python", "IT Automation", "AI Ops"],
+      "x_icons": ["fa-solid fa-fingerprint", "fa-solid fa-plug-circle-bolt", "fa-solid fa-user-shield"],
+      "url": "https://github.com/apaseay/okta-mcp-server"
+    },
+    {
+      "name": "Network Design – Electric Petrol Site",
+      "description": "Full physical and logical network design for a greenfield EV petrol station (400m × 200m). Delivered Layer 1 and Layer 2 documentation including physical containment design, rack placement, cable routing, wirelists, VLAN architecture, switch configuration sheets, logical diagrams, and prototype switch configurations.",
+      "highlights": ["VLAN Design", "Layer 1 & 2", "Rack & Cabling", "Switch Config", "Network Architecture"],
+      "x_icon": "fa-solid fa-network-wired",
+      "url": "https://github.com/apaseay/networking-electric-petrol-site"
+    },
+    {
+      "name": "Personal Cloud Portfolio Website",
+      "description": "This portfolio site, built with React and the Bulma CSS framework. All content is driven by a structured resume.json file following the JSON Resume open standard. Deployed on Netlify with a custom subdomain.",
+      "highlights": ["React", "Bulma CSS", "JSON Resume", "Netlify", "JavaScript"],
+      "x_icon": "fa-solid fa-code",
+      "url": "https://github.com/apaseay/Personal-Website-Cloud"
+    }
   ]
 }
