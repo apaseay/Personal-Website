@@ -16,21 +16,17 @@ const formatDate = (value) => {
 };
 
 export default function Timeline() {
-  // unique list of years from startDate
+  let globalIndex = 0;
+
   const years = Array.from(
     new Set(Resume.work.map((w) => new Date(w.startDate).getFullYear()))
-  );
+  ).sort((a, b) => b - a);
 
   return (
     <div className="timeline is-centered">
       <header className="timeline-header">
         <span className="tag is-medium is-dark">{new Date().getFullYear()}</span>
       </header>
-
-      <div className="timeline-item">
-        <div className="timeline-marker is-success" />
-        <div className="timeline-content" />
-      </div>
 
       {years.map((year) => {
         const items = Resume.work.filter(
@@ -40,14 +36,17 @@ export default function Timeline() {
         return (
           <React.Fragment key={year}>
             <TimelineHeader year={year} />
-            {items.map((item, idx) => {
+            {items.map((item) => {
+              const side = globalIndex % 2 === 0 ? "is-left" : "is-right";
+              globalIndex++;
               const range = `${formatDate(item.startDate)} – ${formatDate(
                 item.endDate || "Present"
               )}`;
 
               return (
                 <TimelineItem
-                  key={`${year}-${idx}-${item.company}`}
+                  key={`${year}-${item.company}`}
+                  side={side}
                   date={range}
                   company={item.company}
                   summary={item.summary}
