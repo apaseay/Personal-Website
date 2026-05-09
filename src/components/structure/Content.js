@@ -11,10 +11,10 @@ function Content() {
     <main>
       <AboutMe />
       <Skills />
+      <Projects />
       <Experience />
       <Education />
       <Certifications />
-      <Projects />
     </main>
   );
 }
